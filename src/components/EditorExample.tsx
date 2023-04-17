@@ -21,7 +21,6 @@ const LANGUAGES = [
 
 export default function EditorExample() {
   const [value, setValue] = useState<Value>(demo);
-  console.log("🚀 ~ value:", value);
   const reset = () => setValue(demo);
 
   return (

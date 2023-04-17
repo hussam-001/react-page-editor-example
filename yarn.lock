@@ -293,10 +293,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hussam-001/editor@0.0.0", "@hussam-001/editor@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@hussam-001/editor/-/editor-0.0.0.tgz#bf22411b56d35d80620eebaf6a37635f7576f676"
-  integrity sha512-hN0M/VupuQekDrudrlSwum4o3yRo6k9XXSKRxqkvajG4esdjmyrl5TYj6rNTxXGBUt0spYAhugW0IMW5t2M+Zw==
+"@hussam-001/editor@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@hussam-001/editor/-/editor-0.0.16.tgz#e99458091a384ecd9e98623e3ff1634f1e87f30e"
+  integrity sha512-u2mlb2EHQbGGh2Weq0BrJsrzrS+NzLc+FGRY9ztgciEtmiUUaONuvR9b2KM29kSjxPepvatPvwFxieb+w1rcPw==
   dependencies:
     "@mui/icons-material" "^5.8.0"
     "@mui/material" "^5.8.1"
@@ -325,14 +325,14 @@
     uniforms "^2.6.0 || ^3.0.0"
     uniforms-bridge-json-schema "^2.6.0 || ^3.0.0"
 
-"@hussam-001/plugins-slate@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@hussam-001/plugins-slate/-/plugins-slate-0.0.0.tgz#6443d00eeb63f232930c2d3eb64269240995f2b1"
-  integrity sha512-MTM+bjJEPEVXnGOK7kXIxCqJcmHUmqecWkAkOS9AL/Yn8H2lPQXBMsDWVZpdvxvEE8bkHxymipN3UmMdA9z76w==
+"@hussam-001/plugins-slate@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@hussam-001/plugins-slate/-/plugins-slate-0.0.16.tgz#b91977f3fad5b1afebb72bcd79b236ca8d1939a5"
+  integrity sha512-gVTTL9uJYZ2puO3Wc+Y6EAfOb4dQYHAcVvIrA424uSLABrGLJonlFyOrAV5f3cOKlDl9ZbuE0hgTnmBLsREtnA==
   dependencies:
     "@emotion/is-prop-valid" "^1.2.0"
-    "@hussam-001/editor" "0.0.0"
     "@mui/icons-material" "^5.8.0"
+    "@react-page/editor" "^5.4.3"
     "@xmldom/xmldom" "^0.8.1"
     cssstyle "^2.3.0"
     deep-rename-keys "^0.2.1"
@@ -2641,6 +2641,13 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+next-transpile-modules@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-10.0.0.tgz#7152880048835acb64d05fc7aa34910cbe7994da"
+  integrity sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==
+  dependencies:
+    enhanced-resolve "^5.10.0"
 
 next@13.2.4:
   version "13.2.4"
